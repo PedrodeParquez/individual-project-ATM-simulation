@@ -1,0 +1,1952 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button_One.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_One.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_One.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button_One.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 536</value>
+  </data>
+  <data name="Button_One.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button_One.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_One.Name" xml:space="preserve">
+    <value>Button_One</value>
+  </data>
+  <data name="&gt;&gt;Button_One.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_One.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_One.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Button_Two.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Two.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Two.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Button_Two.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Two.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 535</value>
+  </data>
+  <data name="Button_Two.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Button_Two.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Two.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Two.Name" xml:space="preserve">
+    <value>Button_Two</value>
+  </data>
+  <data name="&gt;&gt;Button_Two.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Two.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Two.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Button_Three.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Three.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Three.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Three.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 535</value>
+  </data>
+  <data name="Button_Three.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Three.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Button_Three.Name" xml:space="preserve">
+    <value>Button_Three</value>
+  </data>
+  <data name="&gt;&gt;Button_Three.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Three.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Three.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Button_Four.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Four.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Four.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Four.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 610</value>
+  </data>
+  <data name="Button_Four.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Four.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Button_Four.Name" xml:space="preserve">
+    <value>Button_Four</value>
+  </data>
+  <data name="&gt;&gt;Button_Four.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Four.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Four.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Button_Five.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Five.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Five.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Five.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 610</value>
+  </data>
+  <data name="Button_Five.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Five.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Button_Five.Name" xml:space="preserve">
+    <value>Button_Five</value>
+  </data>
+  <data name="&gt;&gt;Button_Five.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Five.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Five.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Button_Six.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Six.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Six.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Six.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 612</value>
+  </data>
+  <data name="Button_Six.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Six.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Button_Six.Name" xml:space="preserve">
+    <value>Button_Six</value>
+  </data>
+  <data name="&gt;&gt;Button_Six.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Six.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Six.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Button_Seven.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Seven.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Seven.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Seven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 688</value>
+  </data>
+  <data name="Button_Seven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Seven.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Button_Seven.Name" xml:space="preserve">
+    <value>Button_Seven</value>
+  </data>
+  <data name="&gt;&gt;Button_Seven.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Seven.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Seven.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Button_Eight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Eight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Eight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Eight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 688</value>
+  </data>
+  <data name="Button_Eight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Eight.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Button_Eight.Name" xml:space="preserve">
+    <value>Button_Eight</value>
+  </data>
+  <data name="&gt;&gt;Button_Eight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Eight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Eight.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Button_Nine.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Nine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Nine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Nine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 688</value>
+  </data>
+  <data name="Button_Nine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Nine.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Button_Nine.Name" xml:space="preserve">
+    <value>Button_Nine</value>
+  </data>
+  <data name="&gt;&gt;Button_Nine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Nine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Nine.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Button_Point.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Point.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Point.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Point.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 762</value>
+  </data>
+  <data name="Button_Point.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Point.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Button_Point.Name" xml:space="preserve">
+    <value>Button_Point</value>
+  </data>
+  <data name="&gt;&gt;Button_Point.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Point.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Point.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Button_Zero.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Zero.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Zero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Zero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 762</value>
+  </data>
+  <data name="Button_Zero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Zero.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Button_Zero.Name" xml:space="preserve">
+    <value>Button_Zero</value>
+  </data>
+  <data name="&gt;&gt;Button_Zero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Zero.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Zero.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Button_Double_Zero.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Double_Zero.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Double_Zero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Double_Zero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 761</value>
+  </data>
+  <data name="Button_Double_Zero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 53</value>
+  </data>
+  <data name="Button_Double_Zero.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Button_Double_Zero.Name" xml:space="preserve">
+    <value>Button_Double_Zero</value>
+  </data>
+  <data name="&gt;&gt;Button_Double_Zero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Double_Zero.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Double_Zero.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Button_Cancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Cancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 533</value>
+  </data>
+  <data name="Button_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="Button_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Name" xml:space="preserve">
+    <value>Button_Cancel</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Button_Clear.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Clear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Clear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 607</value>
+  </data>
+  <data name="Button_Clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="Button_Clear.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Button_Clear.Name" xml:space="preserve">
+    <value>Button_Clear</value>
+  </data>
+  <data name="&gt;&gt;Button_Clear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Clear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Clear.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Button_Enter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Enter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Enter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Enter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 685</value>
+  </data>
+  <data name="Button_Enter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="Button_Enter.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Button_Enter.Name" xml:space="preserve">
+    <value>Button_Enter</value>
+  </data>
+  <data name="&gt;&gt;Button_Enter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Enter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Enter.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Button_Empty.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Empty.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Empty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 759</value>
+  </data>
+  <data name="Button_Empty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 55</value>
+  </data>
+  <data name="Button_Empty.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Button_Empty.Name" xml:space="preserve">
+    <value>Button_Empty</value>
+  </data>
+  <data name="&gt;&gt;Button_Empty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Empty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Empty.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="button17.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="button17.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 488</value>
+  </data>
+  <data name="button17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 28</value>
+  </data>
+  <data name="button17.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button17.Name" xml:space="preserve">
+    <value>button17</value>
+  </data>
+  <data name="&gt;&gt;button17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button17.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="button_Card_Insert.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="button_Card_Insert.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button_Card_Insert.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_Card_Insert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 267</value>
+  </data>
+  <data name="button_Card_Insert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 34</value>
+  </data>
+  <data name="button_Card_Insert.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;button_Card_Insert.Name" xml:space="preserve">
+    <value>button_Card_Insert</value>
+  </data>
+  <data name="&gt;&gt;button_Card_Insert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Card_Insert.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Card_Insert.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Home_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Home_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Home_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Home_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Home_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Home_Screen.Name" xml:space="preserve">
+    <value>Home_Screen</value>
+  </data>
+  <data name="&gt;&gt;Home_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Home_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Home_Screen.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Cash_Waiting_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Cash_Waiting_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Cash_Waiting_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Cash_Waiting_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Cash_Waiting_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Cash_Waiting_Screen.Name" xml:space="preserve">
+    <value>Cash_Waiting_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Waiting_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Waiting_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cash_Waiting_Screen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Cash_Withdrawal_Waiting_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Cash_Withdrawal_Waiting_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Cash_Withdrawal_Waiting_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Cash_Withdrawal_Waiting_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Cash_Withdrawal_Waiting_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Waiting_Screen.Name" xml:space="preserve">
+    <value>Cash_Withdrawal_Waiting_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Waiting_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Waiting_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Waiting_Screen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Loading_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Loading_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Loading_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Loading_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Loading_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Loading_Screen.Name" xml:space="preserve">
+    <value>Loading_Screen</value>
+  </data>
+  <data name="&gt;&gt;Loading_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Loading_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Loading_Screen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Locked_ATM_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Locked_ATM_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Locked_ATM_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Locked_ATM_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Locked_ATM_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Locked_ATM_Screen.Name" xml:space="preserve">
+    <value>Locked_ATM_Screen</value>
+  </data>
+  <data name="&gt;&gt;Locked_ATM_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Locked_ATM_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Locked_ATM_Screen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Cash_Deposit_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.Name" xml:space="preserve">
+    <value>Cash_Deposit_Field</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.Parent" xml:space="preserve">
+    <value>Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.Name" xml:space="preserve">
+    <value>Button_Home_4</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.Parent" xml:space="preserve">
+    <value>Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.Name" xml:space="preserve">
+    <value>Button_Deposit</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.Parent" xml:space="preserve">
+    <value>Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Cash_Deposit_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Cash_Deposit_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Cash_Deposit_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Cash_Deposit_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Screen.Name" xml:space="preserve">
+    <value>Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Screen.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Cash_Deposit_Field.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Cash_Deposit_Field.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 32.25pt</value>
+  </data>
+  <data name="Cash_Deposit_Field.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 107</value>
+  </data>
+  <data name="Cash_Deposit_Field.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Cash_Deposit_Field.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Cash_Deposit_Field.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 46</value>
+  </data>
+  <data name="Cash_Deposit_Field.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Cash_Deposit_Field.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.Name" xml:space="preserve">
+    <value>Cash_Deposit_Field</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.Parent" xml:space="preserve">
+    <value>Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Deposit_Field.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button_Home_4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Home_4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Home_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 236</value>
+  </data>
+  <data name="Button_Home_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 30</value>
+  </data>
+  <data name="Button_Home_4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.Name" xml:space="preserve">
+    <value>Button_Home_4</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.Parent" xml:space="preserve">
+    <value>Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button_Deposit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Deposit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Deposit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 167</value>
+  </data>
+  <data name="Button_Deposit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 41</value>
+  </data>
+  <data name="Button_Deposit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.Name" xml:space="preserve">
+    <value>Button_Deposit</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.Parent" xml:space="preserve">
+    <value>Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Deposit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Successful_Cash_Withdrawal_Deposit_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.Name" xml:space="preserve">
+    <value>Button_Home_2</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.Parent" xml:space="preserve">
+    <value>Successful_Cash_Withdrawal_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.Name" xml:space="preserve">
+    <value>Button_Exit_3</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.Parent" xml:space="preserve">
+    <value>Successful_Cash_Withdrawal_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Successful_Cash_Withdrawal_Deposit_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Successful_Cash_Withdrawal_Deposit_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Successful_Cash_Withdrawal_Deposit_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Successful_Cash_Withdrawal_Deposit_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Withdrawal_Deposit_Screen.Name" xml:space="preserve">
+    <value>Successful_Cash_Withdrawal_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Withdrawal_Deposit_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Withdrawal_Deposit_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Withdrawal_Deposit_Screen.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Button_Home_2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Button_Home_2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Home_2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Home_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 236</value>
+  </data>
+  <data name="Button_Home_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
+  </data>
+  <data name="Button_Home_2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.Name" xml:space="preserve">
+    <value>Button_Home_2</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.Parent" xml:space="preserve">
+    <value>Successful_Cash_Withdrawal_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button_Exit_3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Exit_3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Exit_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Exit_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 236</value>
+  </data>
+  <data name="Button_Exit_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
+  </data>
+  <data name="Button_Exit_3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.Name" xml:space="preserve">
+    <value>Button_Exit_3</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.Parent" xml:space="preserve">
+    <value>Successful_Cash_Withdrawal_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Successful_Cash_Deposit_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.Name" xml:space="preserve">
+    <value>Button_Home_1</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.Parent" xml:space="preserve">
+    <value>Successful_Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.Name" xml:space="preserve">
+    <value>Button_Exit_2</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.Parent" xml:space="preserve">
+    <value>Successful_Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Successful_Cash_Deposit_Screen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Close</value>
+  </data>
+  <data name="Successful_Cash_Deposit_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Successful_Cash_Deposit_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Successful_Cash_Deposit_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Successful_Cash_Deposit_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Deposit_Screen.Name" xml:space="preserve">
+    <value>Successful_Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Deposit_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Deposit_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Successful_Cash_Deposit_Screen.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Button_Home_1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Home_1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Home_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 239</value>
+  </data>
+  <data name="Button_Home_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 31</value>
+  </data>
+  <data name="Button_Home_1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.Name" xml:space="preserve">
+    <value>Button_Home_1</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.Parent" xml:space="preserve">
+    <value>Successful_Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button_Exit_2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Exit_2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Exit_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 239</value>
+  </data>
+  <data name="Button_Exit_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 31</value>
+  </data>
+  <data name="Button_Exit_2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.Name" xml:space="preserve">
+    <value>Button_Exit_2</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.Parent" xml:space="preserve">
+    <value>Successful_Cash_Deposit_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Exit_2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Personal_Account_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.Name" xml:space="preserve">
+    <value>сard_Balance</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.Parent" xml:space="preserve">
+    <value>Personal_Account_Screen</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.Name" xml:space="preserve">
+    <value>Button_Home_5</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.Parent" xml:space="preserve">
+    <value>Personal_Account_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Personal_Account_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Personal_Account_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Personal_Account_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Personal_Account_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Personal_Account_Screen.Name" xml:space="preserve">
+    <value>Personal_Account_Screen</value>
+  </data>
+  <data name="&gt;&gt;Personal_Account_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Personal_Account_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Personal_Account_Screen.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="сard_Balance.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="сard_Balance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 32.25pt</value>
+  </data>
+  <data name="сard_Balance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="сard_Balance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 160</value>
+  </data>
+  <data name="сard_Balance.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="сard_Balance.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="сard_Balance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 49</value>
+  </data>
+  <data name="сard_Balance.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="сard_Balance.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.Name" xml:space="preserve">
+    <value>сard_Balance</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.Parent" xml:space="preserve">
+    <value>Personal_Account_Screen</value>
+  </data>
+  <data name="&gt;&gt;сard_Balance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button_Home_5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Home_5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Home_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 220</value>
+  </data>
+  <data name="Button_Home_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 33</value>
+  </data>
+  <data name="Button_Home_5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.Name" xml:space="preserve">
+    <value>Button_Home_5</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.Parent" xml:space="preserve">
+    <value>Personal_Account_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cash_Withdrawal_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.Name" xml:space="preserve">
+    <value>Cash_Withdrawal_Field</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.Parent" xml:space="preserve">
+    <value>Cash_Withdrawal_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.Name" xml:space="preserve">
+    <value>Button_Home_3</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.Parent" xml:space="preserve">
+    <value>Cash_Withdrawal_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.Name" xml:space="preserve">
+    <value>Button_Withdraw</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.Parent" xml:space="preserve">
+    <value>Cash_Withdrawal_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Cash_Withdrawal_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Cash_Withdrawal_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Cash_Withdrawal_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Cash_Withdrawal_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Screen.Name" xml:space="preserve">
+    <value>Cash_Withdrawal_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Screen.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 32.25pt</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 107</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 46</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Cash_Withdrawal_Field.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Cash_Withdrawal_Field.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.Name" xml:space="preserve">
+    <value>Cash_Withdrawal_Field</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.Parent" xml:space="preserve">
+    <value>Cash_Withdrawal_Screen</value>
+  </data>
+  <data name="&gt;&gt;Cash_Withdrawal_Field.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button_Home_3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Home_3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Home_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Home_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 237</value>
+  </data>
+  <data name="Button_Home_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 30</value>
+  </data>
+  <data name="Button_Home_3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.Name" xml:space="preserve">
+    <value>Button_Home_3</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.Parent" xml:space="preserve">
+    <value>Cash_Withdrawal_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Home_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button_Withdraw.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Withdraw.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Withdraw.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Withdraw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 164</value>
+  </data>
+  <data name="Button_Withdraw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 43</value>
+  </data>
+  <data name="Button_Withdraw.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.Name" xml:space="preserve">
+    <value>Button_Withdraw</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.Parent" xml:space="preserve">
+    <value>Cash_Withdrawal_Screen</value>
+  </data>
+  <data name="&gt;&gt;Button_Withdraw.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Button_Pick_Up_Card.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button_Pick_Up_Card.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Button_Pick_Up_Card.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Pick_Up_Card.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 267</value>
+  </data>
+  <data name="Button_Pick_Up_Card.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 34</value>
+  </data>
+  <data name="Button_Pick_Up_Card.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Button_Pick_Up_Card.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Button_Pick_Up_Card.Name" xml:space="preserve">
+    <value>Button_Pick_Up_Card</value>
+  </data>
+  <data name="&gt;&gt;Button_Pick_Up_Card.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button_Pick_Up_Card.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Pick_Up_Card.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Time_And_Date_Field.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Time_And_Date_Field.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 17.25pt</value>
+  </data>
+  <data name="Time_And_Date_Field.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Time_And_Date_Field.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 166</value>
+  </data>
+  <data name="Time_And_Date_Field.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Time_And_Date_Field.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 60</value>
+  </data>
+  <data name="Time_And_Date_Field.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Time_And_Date_Field.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Time_And_Date_Field.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Time_And_Date_Field.Name" xml:space="preserve">
+    <value>Time_And_Date_Field</value>
+  </data>
+  <data name="&gt;&gt;Time_And_Date_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Time_And_Date_Field.Parent" xml:space="preserve">
+    <value>Main_Screen</value>
+  </data>
+  <data name="&gt;&gt;Time_And_Date_Field.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Welcome_And_Name_Field.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Welcome_And_Name_Field.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Welcome_And_Name_Field.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 94</value>
+  </data>
+  <data name="Welcome_And_Name_Field.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Welcome_And_Name_Field.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 51</value>
+  </data>
+  <data name="Welcome_And_Name_Field.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Welcome_And_Name_Field.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Welcome_And_Name_Field.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Welcome_And_Name_Field.Name" xml:space="preserve">
+    <value>Welcome_And_Name_Field</value>
+  </data>
+  <data name="&gt;&gt;Welcome_And_Name_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Welcome_And_Name_Field.Parent" xml:space="preserve">
+    <value>Main_Screen</value>
+  </data>
+  <data name="&gt;&gt;Welcome_And_Name_Field.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Main_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="button4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 233</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 33</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>Main_Screen</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 201</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 63</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>Main_Screen</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 109</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 63</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>Main_Screen</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 17</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 63</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>Main_Screen</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Main_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="Main_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="Main_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Main_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Main_Screen.Name" xml:space="preserve">
+    <value>Main_Screen</value>
+  </data>
+  <data name="&gt;&gt;Main_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Main_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Main_Screen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PIN_Code.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="PIN_Code.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22.2pt</value>
+  </data>
+  <data name="PIN_Code.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="PIN_Code.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 157</value>
+  </data>
+  <data name="PIN_Code.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="PIN_Code.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="PIN_Code.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PIN_Code.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code.Name" xml:space="preserve">
+    <value>PIN_Code</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code.Parent" xml:space="preserve">
+    <value>PIN_Code_Screen</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PIN_Code_Screen.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AGhFwwAAWtEwAIBWNAwAoBUNC0f1V6f+5+bNAFJUb8x4vzhQjYaFg4YBmWhYYGhYOGgYkImGBYaGhYOG
+        AZloWGBoWDhoGJCJhgWGhoWDhgGZaFhgaFg4aBiQiYYFhoaFg4YBmWhYYGhYOGgYkImGBYaGhYOGAZlo
+        WGBoWDhoGJCJhgWGhoWDhgGZaFhgaFg4aBiQiYYFhoaFg4YBmWhYYGhYOGgYkImGBYaGhYOGAZloWGBo
+        WDhoGJCJhgWGhoWDhgGZaFhgaFg4aBiQiYYFhoaFg4YBmWhYYGhYOGgYkImGBYaGhYOGAZloWGBoWDho
+        GJCJhgWGhoWDhgGZaFhgaFg4aBiQiYYFhoaFg4YBmWhYYGhYOGgYkImGBYaGhYOGAZloWGBoWDhoGJCJ
+        hgWGhoWDhgGZaFhgaFg4aBiQiYYFhoaFg4YBmWhYYGhYOGgYkImGBYaGhYOGAZloWGBoWDhoGJCJhgWG
+        hoWDhgGZaFhgaFg4aBiQiYYFhoaFg4YBmWhYYGhYOGgYkImGBYaGhYOGAZloWGBoWDhoGJCJhgWGhoWD
+        hgGZaFhgaFg4aBiQiYYFhoaFg4YBmWhYYGhYOGgYkImGBYaGhYOGAZloWGBoWDhoGJCJhgWGhgEAtKJh
+        AACtaBgAQCsaBgDQioYBALSiYQAArWgYAEArGgYA0IqGAQC0omEAAK1oGABAKxoGANCKhgXos4/OX7nc
+        38lTj4z89uVD3kUAQCMaFqB/e/fUF7JOX77jtqe+udW7IADoQsMClKdh5jR16CveZQFAERoWINuwkf47
+        vEXi1huTz18dlf0wM4a9MQB60bAApTfMkJLdftsXZcztX/qitwgAtKBhAcrTMHH5VJ8ZduvGcW8RAKhA
+        wwKUs2HPXx01w3778mH3/OvX9k0f+otEVy735zmmUcZcnum78y/+w5fvuE3+OzH6H5+7OuqNiZOLeFfn
+        iV+13PJOiww53wyQYJtzUu6dJ/FV1s8+mpWNIPfI3DXZwnLXZIN7wzLJfrB3dZ14m87e/k5XagfYu2zY
+        a5QB7vkuMyDPg9WJvfbPPjrvLRKy9cxS4f3UmaVPPTJitq2QbSs/Enm2rV1nJ6t4gKAFDQtQzobJXGyG
+        ebOJPb/TSeaXTpOCTEN29847yaWuX9vvjXctjet8is+tNsOdpl25UjPgz++4zZyTee/sKb71ZIa9/bY/
+        W1rsnG7/0hdX+raibPOlC2edZAp2L9jpUTPkcYnfZcNeo6zBPd9lBnjXuCL25iX+hNifDcm/t0gewcRt
+        K6fpQ19JLKJhf9pTTonbCmGgYQHK2TA72XkThJ2GZIDHnC8nmbUTJymZm5YG3PZncu0yG5qn1eZMOXWK
+        jdwGM0Au6F6jsFPbSht25fKAWSonO6FLhzqt3ztfbrldlXDbbO6auPMrS/dXTiltiLNFid9fywxYUcNk
+        ujdL5dRrDbMPh9w1b6n7SMlSs21lIy+dtdi8Thm7dWPSjEn5yaFhAaNhAcrTMDtrXJ5pe8VpcVHHaUjO
+        kZndLI3PdHaWl+v1LvvUN0fMIolf4mRkb3P89qSEKmWRXaE5eRO6a+rzed8732WvSGZGb0KUnUs50yzN
+        P1faonSKur39+Rt2642l2dyceqph16/tM+dLV7xF9p7KIu91TllknyV0+hxIyv1K2VYIBg0LkJ0U5Pdf
+        /u26deO4TMf2Ga7847OPZr2Ld5qGLHNAozdFymBzqfjLRIbNWOIcmjITra5hdu4zgVlLwyS6ZiXy38Rt
+        Ym98ypMGj71IFxtmb2TiA5SyhS0zoOsNk3/bXaL4u3H2pzFxU8jGtw9l/C6LlJ+BlG2FYNCwANnpL+X0
+        5Tu+1OkXO3EacplJx5si7atYnS4lzAUTj+aXvRlz8RWFqtMie77cl8Rb68psWMoNsCZ2/SczptNLXh5b
+        lE7rtA9izobZHWt5rpCYbXuNsgb3fJcZ0N2GyT/M7ZFT/KrtK4HeK7cue8vj++jiqUeWnhvFf547bSuE
+        hIYFyE5/6SeZWRKns/g05HLm1rbXdsyT5fQdEftiY3zNthPx6WalDbOTpvxX/nftDTN9Sv8gXZ7Ouey8
+        3JWG2cHmLpu7362GyQXl3nXiHREa/+Gxb5GmF+j6jzseLSlSPstorzH+EZHEbYXA0LAA2RlNpg/57fU8
+        f3XMfec//jaD/c2XaUVmKOv6tX2yyLwoJLOknaSE7HyYi8izafciHpnFzLD4hJUyE8lEaRblbJi9d+bM
+        tTfM5Fn+690dl52Lcx6gKA+EGd+Vhnk7wd1tmN0+iadON8/ckpQDEQ27/+r+OMXZ2xAfZhfF94ATtxUC
+        Q8MCZKe/lL0iGWNmOjl50679zU88yXNhGeC9i2avMecpPnHbyS4+E62oYZITc47dTVx7w8zSnKeUQri6
+        2DC7EeyOTnrDMk9daZh78p7xuMyjIyfvfI9dbfwpjllD+i4aDQsYDQtQnoYJO8z7/U+chryTjHEvsvaG
+        pcxEK2qYmb7dSTPshsmw+F0253SrYfJ8RdbcifdsJvGHRx7WWzcm3WHWShsWr5HdS/bOFymXQjBoWIBk
+        ZjG/uukNE3YGkYvYM93ffDtVGbfemLTHDsjUby8ii8yZsvfjju8kfjBkyttp+RvmHtdgx6y9YebNGFmP
+        dy8Sxe9aIluUNTbMe+HUSG+Y3BFZSSIzwLvGFbErkZ1C+be9eXKTEo92sa8leud7Ut5JNY9O4iEh9sbQ
+        sIDRsADZ6S8xCa7EX3J7Zny+MC6f2mQGuJdKmUoy2bfTEt/2z9kwe69lunTHrL1hpq8pa1gFW5S1NMwZ
+        0/amZnrDZA3u+S4zoCsNsz889gOFiT+NNk7pX9ppHkQ5eefbwxoT75S7rbxFCAYNC5Cd2jIbljiDxKch
+        T+JsaGaZ2zt8hDld+oSes2F2rvRu9toblnOeXZH0uyycPnVsmGmVnLy73FMNk58HezvjV20fwZRbZTdF
+        /OfZXlzunbdIuNvKW4Rg0LAApfzOuz77aNZOLu758WnIY2dDd7fJHpiXMhnJIrnIb2Pfz2tfcUq8xjwN
+        M6GSU3xPbu0Ns/fX291xyd2XpfEP8HZi17nqhtm7HN/gPdUwIf82u+ly8r4zUwpnj5vv9OzHvkQc31Zm
+        IyS+jSrsjaFhAaNhAbLTX0rDJGD2gzve1Jw4Dblsctw5xX26nThl2MjJMPd8Z7JOLkSehpmTrDn+dtTa
+        GyZSgiHcL3nqtNE8a2+YOXkb0+i1hgn7SElvvEWJ77Ba9kuq5E51Wmennxx7Y2hYwGhYgOz0J7/28mvs
+        kRlKZmT73T/xqUHGmEXmbXmXnGNn8/gF7SwpJ5lWZH9LBgj5h82enOysvXiESL+ZcOUkY9zrsuyLhPIP
+        c469Rq9hiT3oSsPkXtg9CbmdMrGau3brxnG5PXZjurctXbcalni8n9mkPdUwYd9GlZvn7nLJv807jmaR
+        bBCzbeXHxr2z7j6u3BdZlPmTY39WzQD+ZHmQaFiA7PSXeZJdsfhcI7/tS4s7n2TWlgJ5FxReVOIn94jB
+        zMGdTolrkHnKnu/qSsOE3F87aSaeZLt5F0nRlYZ1usu92TBhW+Xtcsng9G3r/tiIPD+i8VPKzwD0omEB
+        Sm+Y5EfmC5mnZFLzLmikTxBy2SuXB1KOIJdrl7l1abRzkpZ419jdhiVOmqJbDRPmrtm9LnuK37VMa2+Y
+        PBCd7nLPNkzOtK2K7xXJz5Vdak+ybePPlmgYLBqGQkjkZNJ8/uqYkH8kNs8WKGcA8semaHKDr1/bL3dN
+        /puSc6yCFCtz26aXMi7zeQz0omHYMHobho1Fw2AxHWDD0DCsDg2DxXSADUPDsDo0DBbTATYMDcPq0DBY
+        TAcAAK1oGABAKxoGANCKhgEAtKJhAACtaBgAQCsaBgDQioYBALSiYQAArWgYAEArGgYA0IqGAQC0omEA
+        AK1oGABAKxoGANCKhgEAtKJhAACtaBgAQCsaBgDQioYBALSiYQAArWgYAEArGgYA0IqGAQC0omEAAK1o
+        GABAKxoGANCKhgEAtKJhAACtaBgAQCsaBgDQioYBALSiYQAArWgYAEArGgYA0IqGAQC0omEAAK1oGABA
+        KxoGANCKhgEAtKJhAACtaBgAQCsaBgDQioYBALSiYQAArWgYAEArGgYA0IqGAQC0omEAAK1oGABAKxoG
+        ANCKhgEAtKJhAACtaBgAQCsaBgDQioYBALSiYQAArWgYAEArGgYAUKnxvx6iYQAAlf5YeesLf6y+5Z0L
+        AEAvi/740L/V3/6X//d//j/XB1BeNj7YTAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="PIN_Code_Screen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="PIN_Code_Screen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 62</value>
+  </data>
+  <data name="PIN_Code_Screen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 276</value>
+  </data>
+  <data name="PIN_Code_Screen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PIN_Code_Screen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code_Screen.Name" xml:space="preserve">
+    <value>PIN_Code_Screen</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code_Screen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code_Screen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PIN_Code_Screen.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>910, 867</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAABAA
+        AABlzeoAU4nmAFuo6ABPeOUAV5rnAGG96gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA
+        AAAAAAAAAAAAUlAAAAAAAAAAAAERERERQBEyBBEREREQAAACAAAAAAAjMgAAAAAAIAAAAgAAAAAAAAUA
+        AAAAACAAAAIAAAAAAAAAAAAAAAAgAAACABETM0ERETMzETEAIAAAAgAyMiRTREQzIkQSACAAAAIAAAAA
+        BQUAUAAAUAAgAAACAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAgAAAE
+        ERERERERERERERERQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mashin Bank ATM</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
